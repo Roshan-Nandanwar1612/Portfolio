@@ -80,3 +80,6 @@ topBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+function previewCert(file) {
+    window.open(file, "_blank");
+}
